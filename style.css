@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #33383f;
+  font-size: 50 px;
+  background-color: rgb(245, 245, 245);
+  line-height: 1.8;
+}
+
+
+h1, h2, h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3d8bb5;
+  font-size: 30 px;
+  line-height: 1.8;
+}
+
+a  {
+  text-decoration: none;
+  color: #1c8c98;
+}
+
+a:hover  {
+
+  color: #981c92;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.avatar-round {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+
+ul > li > a {
+  font-size: 48px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+ul > li > a:hover {
+  color: rgba(194, 27, 180, 0.238);
+}
+
+ul > li {
+  display: inline;
+  margin: 0 8px;
+}
+
+ul {
+  padding: 0;
+}
+
+.btn-blue {
+  background-color: rgb(144, 48, 138);
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: rgba(0, 0, 0, 0.453);
+}
